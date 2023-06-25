@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    max-width: unset;
+}
+.menuItem:hover {
+    background: #1F2430!important;
+    color: #ffffff;
+}
+li .Mui-selected {
+    color: white;
+    background-color: #407EFF!important;
+}
+.menuItem:hover .menuIcon {
+    filter: brightness(0) invert(1);
+}
+
+.activeMenuItem {
+    filter: brightness(0) invert(1);
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #272D3E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #788195;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+thead tr,th {
+    padding: 15px;
+}
+table {
+    font-weight: 400;
+    color: #788195;
+}
